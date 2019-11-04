@@ -28,6 +28,7 @@ BuildRequires: xcb-proto
 BuildRequires: xcb-util-image-devel
 BuildRequires: xcb-util-wm-devel
 BuildRequires: xcb-util-xrm-devel
+BuildRequires: python3-sphinx
 Requires: cairo
 Requires: jsoncpp
 Requires: python2
@@ -97,4 +98,4 @@ chmod +x bin/polybar bin/polybar-msg
 
 %changelog
 * Tue May 9 2019 - Marco Hartgring <marco.hartgring@gmail.com>
-- Initial version
+- Version 3.4.1
