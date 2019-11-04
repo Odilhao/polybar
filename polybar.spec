@@ -29,8 +29,6 @@ BuildRequires: xcb-util-image-devel
 BuildRequires: xcb-util-wm-devel
 BuildRequires: xcb-util-xrm-devel
 BuildRequires: python3-sphinx
-BuildRequires: gcc-c++
-BuildRequires: @development-tools
 Requires: cairo
 Requires: jsoncpp
 Requires: python3
@@ -99,5 +97,5 @@ chmod +x bin/polybar bin/polybar-msg
 %config(noreplace) %{_datadir}/doc/%{name}/config
 
 %changelog
-* Tue May 9 2019 - Marco Hartgring <marco.hartgring@gmail.com>
+* Mon Nov 4 2019 - Odilon Junior <odilon@mail.com>
 - Version 3.4.1
