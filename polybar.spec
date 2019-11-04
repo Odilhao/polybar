@@ -5,7 +5,7 @@ Summary: A fast and easy-to-use tool for creating status bars
 
 Group: System/GUI/Other
 License: MIT
-URL: https://github.com/jaagr/polybar
+URL: https://github.com/polybar/polybar
 Source0: %{url}/releases/download/%{version}/%{name}-%{version}.tar
 
 BuildRequires: alsa-lib-devel
