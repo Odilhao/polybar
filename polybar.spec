@@ -29,6 +29,8 @@ BuildRequires: xcb-util-image-devel
 BuildRequires: xcb-util-wm-devel
 BuildRequires: xcb-util-xrm-devel
 BuildRequires: python3-sphinx
+BuildRequires: gcc-c++
+BuildRequires: @development-tools
 Requires: cairo
 Requires: jsoncpp
 Requires: python3
