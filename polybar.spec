@@ -1,5 +1,5 @@
 Name: polybar
-Version: 3.3.1
+Version: 3.4.1
 Release: 1%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
 
