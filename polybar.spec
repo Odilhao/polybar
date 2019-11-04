@@ -22,7 +22,7 @@ BuildRequires: libcurl-devel
 BuildRequires: libmpdclient-devel
 BuildRequires: libxcb-devel
 BuildRequires: pulseaudio-libs-devel
-BuildRequires: python2
+BuildRequires: python3
 BuildRequires: wireless-tools-devel
 BuildRequires: xcb-proto
 BuildRequires: xcb-util-image-devel
@@ -31,7 +31,7 @@ BuildRequires: xcb-util-xrm-devel
 BuildRequires: python3-sphinx
 Requires: cairo
 Requires: jsoncpp
-Requires: python2
+Requires: python3
 Requires: xcb-proto
 Requires: xcb-util-cursor
 Requires: xcb-util-image
@@ -39,7 +39,7 @@ Requires: xcb-util-wm
 Requires: xcb-util-xrm
 
 %if 0%{?fedora}
-BuildRequires:  python2
+BuildRequires:  python3
 BuildRequires:  wireless-tools-devel
 BuildRequires:  i3-ipc
 %else
