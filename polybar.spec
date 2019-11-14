@@ -1,5 +1,5 @@
 Name: polybar
-Version: 3.3.1
+Version: 3.4.0
 Release: 1%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
 
@@ -23,19 +23,26 @@ BuildRequires: libmpdclient-devel
 BuildRequires: libxcb-devel
 BuildRequires: pulseaudio-libs-devel
 BuildRequires: python2
+BuildRequires: python3
+BuildRequires: python3-sphinx
 BuildRequires: wireless-tools-devel
 BuildRequires: xcb-proto
 BuildRequires: xcb-util-image-devel
 BuildRequires: xcb-util-wm-devel
 BuildRequires: xcb-util-xrm-devel
 Requires: cairo
+Requires: cairo-devel
 Requires: jsoncpp
 Requires: python2
+Requires: xcb-util-devel
+Requires: libxcb-devel
 Requires: xcb-proto
 Requires: xcb-util-cursor
+Requires: xcb-util-image-devel
 Requires: xcb-util-image
 Requires: xcb-util-wm
 Requires: xcb-util-xrm
+Requires: xcb-util-wm-devel
 
 %if 0%{?fedora}
 BuildRequires:  python2
