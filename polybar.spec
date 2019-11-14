@@ -5,7 +5,7 @@ Summary: A fast and easy-to-use tool for creating status bars
 
 Group: System/GUI/Other
 License: MIT
-URL: https://github.com/polybar/polybar
+URL: https://github.com/jaagr/polybar
 Source0: %{url}/releases/download/%{version}/%{name}-%{version}.tar
 
 BuildRequires: alsa-lib-devel
@@ -22,16 +22,15 @@ BuildRequires: libcurl-devel
 BuildRequires: libmpdclient-devel
 BuildRequires: libxcb-devel
 BuildRequires: pulseaudio-libs-devel
-BuildRequires: python3
+BuildRequires: python2
 BuildRequires: wireless-tools-devel
 BuildRequires: xcb-proto
 BuildRequires: xcb-util-image-devel
 BuildRequires: xcb-util-wm-devel
 BuildRequires: xcb-util-xrm-devel
-BuildRequires: python3-sphinx
 Requires: cairo
 Requires: jsoncpp
-Requires: python3
+Requires: python2
 Requires: xcb-proto
 Requires: xcb-util-cursor
 Requires: xcb-util-image
@@ -39,7 +38,7 @@ Requires: xcb-util-wm
 Requires: xcb-util-xrm
 
 %if 0%{?fedora}
-BuildRequires:  python3
+BuildRequires:  python2
 BuildRequires:  wireless-tools-devel
 BuildRequires:  i3-ipc
 %else
@@ -98,4 +97,4 @@ chmod +x bin/polybar bin/polybar-msg
 
 %changelog
 * Mon Nov 4 2019 - Odilon Junior <odilon@mail.com>
-- Version 3.4.1
+- Version 3.2.0
