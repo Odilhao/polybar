@@ -70,6 +70,8 @@ Polybar aims to help users build beautiful and highly customizable status bars f
 The main purpose of Polybar is to help users create awesome status bars. It has built-in functionality to display infor
 mation about the most commonly used services.
 
+%global debug_package %{nil}
+
 %prep
 %setup -q -n %{name}
 
@@ -104,4 +106,4 @@ chmod +x bin/polybar bin/polybar-msg
 
 %changelog
 * Mon Nov 4 2019 - Odilon Junior <odilon@mail.com>
-- Version 3.2.0
+- Version 3.4.0
