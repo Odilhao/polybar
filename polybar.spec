@@ -102,7 +102,8 @@ chmod +x bin/polybar bin/polybar-msg
 %{_datadir}/bash-completion/completions/%{name}
 %{_datadir}/zsh/site-functions/_%{name}
 %{_datadir}/zsh/site-functions/_%{name}_msg
-%config(noreplace) %{_datadir}/doc/%{name}/config
+%config(noreplace) %{_datadir}/doc/%{name}/*
+
 
 %changelog
 * Mon Nov 4 2019 - Odilon Junior <odilon@mail.com>
