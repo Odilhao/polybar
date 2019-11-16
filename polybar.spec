@@ -1,5 +1,5 @@
 Name: polybar
-Version: 3.4.0
+Version: 3.4.1
 Release: 1%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
 
@@ -95,9 +95,6 @@ chmod +x bin/polybar bin/polybar-msg
 %make_install
 %check
 
-%clean
-rm -rf %{buildroot}
-
 %files
 %{_bindir}/%{name}
 %{_bindir}/%{name}-msg
@@ -106,9 +103,10 @@ rm -rf %{buildroot}
 %{_datadir}/zsh/site-functions/_%{name}
 %{_datadir}/zsh/site-functions/_%{name}_msg
 %config(noreplace) %{_datadir}/doc/%{name}/*
+%{_datadir}/doc/%{name}/.buildinfo
 
 
 
 %changelog
-* Mon Nov 4 2019 - Odilon Junior <odilon@mail.com>
-- Version 3.4.0
+* Mon Nov 16 2019 - Odilon Junior <odilon@mail.com>
+- Version 3.4.1
