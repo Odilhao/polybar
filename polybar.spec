@@ -103,7 +103,7 @@ chmod +x bin/polybar bin/polybar-msg
 %{_datadir}/zsh/site-functions/_%{name}
 %{_datadir}/zsh/site-functions/_%{name}_msg
 %config(noreplace) %{_datadir}/doc/%{name}/*
-
+%{_datadir}/doc/%{name}/.buildinfo
 
 %changelog
 * Mon Nov 4 2019 - Odilon Junior <odilon@mail.com>
