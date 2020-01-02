@@ -30,6 +30,7 @@ BuildRequires: xcb-proto
 BuildRequires: xcb-util-image-devel
 BuildRequires: xcb-util-wm-devel
 BuildRequires: xcb-util-xrm-devel
+BuildRequires: i3-devel
 Requires: cairo
 Requires: cairo-devel
 Requires: jsoncpp
