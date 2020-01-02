@@ -108,5 +108,5 @@ chmod +x bin/polybar bin/polybar-msg
 
 
 %changelog
-* Mon Nov 16 2019 - Odilon Junior <odilon@mail.com>
-- Version 3.4.1
+* Wed Jan 1 2020 - Odilon Junior <odilon@mail.com>
+- Version 3.4.2
