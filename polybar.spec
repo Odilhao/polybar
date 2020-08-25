@@ -16,7 +16,7 @@ BuildRequires: cmake
 BuildRequires: cmake-data
 BuildRequires: git
 BuildRequires: i3
-BuildRequires: i3-ipc
+BuildRequires: python3-i3ipc
 BuildRequires: jsoncpp-devel
 BuildRequires: libcurl-devel
 BuildRequires: libmpdclient-devel
