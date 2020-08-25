@@ -1,5 +1,5 @@
 Name: polybar
-Version: 3.4.2
+Version: 3.4.3
 Release: 1%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
 
@@ -109,5 +109,5 @@ chmod +x bin/polybar bin/polybar-msg
 
 
 %changelog
-* Wed Jan 1 2020 - Odilon Junior <odilon@mail.com>
-- Version 3.4.2
+* Tue Aug 25 2020 - Odilon Junior <odilon@mail.com>
+- Version 3.4.3
