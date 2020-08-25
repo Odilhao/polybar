@@ -48,7 +48,7 @@ Requires: xcb-util-wm-devel
 %if 0%{?fedora}
 BuildRequires:  python2
 BuildRequires:  wireless-tools-devel
-BuildRequires:  i3-ipc
+BuildRequires:  python-i3ipc
 %else
 BuildRequires:  pkgconfig
 BuildRequires:  python-xml
